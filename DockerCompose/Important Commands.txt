@@ -1,0 +1,8 @@
+Docker Compose:
+docker compose -f <fileName.yaml> up -d
+docker compose -f <fileName.yaml> down
+
+
+1. When the docker compose is executed it will create a docker network and run both the services, the mongodb can be accessed at below URL:
+URL: localhost:8081
+credentials: admin/pass
